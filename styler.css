@@ -54,3 +54,38 @@ button{
 .menu a:hover{
     border-bottom: 2px solid rgb(191, 17, 17);
 }   
+
+.card-on {
+  text-align: center;
+  }
+  .card-on .card-on-texto {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transition: 1;
+  }
+  .card-on .card-on-texto:target {
+  display: block;
+  transition: 1s
+  }
+  .card-on .card-on-botao {
+  background: rgb(190, 153, 6);
+  color: white;
+  padding: 20px 100px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 1s
+  }
+  .card-on .card-on-fechar {
+  display: inline-block;
+  margin-top: 10px;
+  background: rgb(190, 153, 6);
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 1s;
+}  
